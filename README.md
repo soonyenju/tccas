@@ -45,3 +45,6 @@ For various versions of DALEC/CARDAMOM, you can find the source code [here](http
 - October 2024, Frascati, Italy
 - June 2025, online
 - March 2024 Edinburgh, UK
+
+
+This TCCAS project is funded by [ESA](https://eo4society.esa.int/2025/06/17/new-carbon-and-water-cycles-model-boosts-eo-data-assimilation/), and the training sessions are supported by ESA and [PANGEOS COST Action - CA22136](https://pangeos.eu/) etc.
