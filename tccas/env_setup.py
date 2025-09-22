@@ -21,7 +21,7 @@ def install(package):
 
 def prepare_tccas():
     # Define paths
-    source_file = Path("/content/drive/My Drive/tccas/tccas_r10043.tgz")
+    source_file = Path("/content/drive/My Drive/tccas/bak/tccas_r10043.tgz")
     dest_file = Path("/content/tccas_r10043.tgz")
     extract_dir = Path("/content/tccas_r10043")
 
@@ -53,8 +53,8 @@ def prepare_tccas():
 warnings.simplefilter('ignore')
 
 drive.mount('/content/drive', force_remount = False)
-# root = Path.cwd().joinpath('drive/My Drive')
-home_dir = Path('/content')
+# home_dir = Path('/content')
+root = Path.cwd().joinpath('drive/My Drive/tccas')
 # home_dir = [p for p in Path('/home').glob('*') if p.stem != 'conda'][0]
 os.chdir(home_dir)
 config_netcdf()
