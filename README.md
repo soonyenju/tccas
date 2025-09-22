@@ -18,20 +18,24 @@ TCCAS offers:
 
 See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https://tccas.inversion-lab.com/documentation/TCCAS_manual.pdf).
 
+The journal publication is [here](https://gmd.copernicus.org/articles/18/2137/2025/). 
+
 The hands-on sessions are delivered on the [PolarTep](https://tccas.hub.eox.at/) Jupyter Notebook platform.
 
 For registered users, here is how to get the notebooks and slides.
 
 ```
 %%bash
-# # Copy shared/tccas/notebooks/ to home
+# Copy shared/tccas/notebooks/ to home
 
 cd ~
 rm -r notebooks
 cp -r /shared/tccas/notebooks/ ~
 ```
 
-You can also run the notebooks on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
+You can also run the notebooks on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb).
+
+For various versions of DALEC/CARDAMOM, you can find the source code [here](https://github.com/GCEL/CARDAMOM). 
 
 # Past Training Schools
 
