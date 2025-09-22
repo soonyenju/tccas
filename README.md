@@ -18,7 +18,9 @@ See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https:
 
 # Past Training Schools
 
-September 2025, Hamburg, Germany
-August 2025, Nanjing, China
-June 2025, Vienna, Austria
-March 2024 Edinburgh, UK
+- September 2025, Hamburg, Germany
+- August 2025, Nanjing, China
+- June 2025, Vienna, Austria
+- October 2024, Frascati, Italy
+- June 2025, online
+- March 2024 Edinburgh, UK
