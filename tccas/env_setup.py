@@ -1,4 +1,4 @@
-import os, sys, shutil, warnings
+import os, sys, shutil, warnings, subprocess
 import numpy as np
 import pandas as pd
 import xarray as xr
@@ -35,3 +35,14 @@ if not root_proj.exists():
     root_proj.mkdir(parents=True, exist_ok=True)
 os.chdir(root_proj)
 home_dir.joinpath('tccas_r10043/resources').mkdir(exist_ok = True)
+
+
+def config_netcdf():
+    # Update package list
+    subprocess.run(["apt-get", "update", "-qq"], check=True)
+    
+    # Install NetCDF C library
+    subprocess.run(["apt-get", "install", "-y", "libnetcdf-dev"], check=True)
+    
+    # Install NetCDF Fortran library
+    subprocess.run(["apt-get", "install", "-y", "libnetcdff-dev"], check=True)
