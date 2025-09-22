@@ -16,7 +16,7 @@ TCCAS offers:
 
 See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https://tccas.inversion-lab.com/documentation/TCCAS_manual.pdf).
 
-The hands-on sessions are delivered on [PolarTep](https://tccas.hub.eox.at/) 
+The hands-on sessions are delivered on the [PolarTep](https://tccas.hub.eox.at/) Jupyter Notebook platform.
 
 # Past Training Schools
 
