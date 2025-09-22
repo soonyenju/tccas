@@ -15,4 +15,4 @@ TCCAS offers:
 - Documentation
 - User support and Training
 
-See TCCAS [website](https://tccas.inversion-lab.com/)
+See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https://tccas.inversion-lab.com/documentation/TCCAS_manual.pdf).
