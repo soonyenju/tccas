@@ -15,3 +15,10 @@ TCCAS offers:
 - User support and Training
 
 See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https://tccas.inversion-lab.com/documentation/TCCAS_manual.pdf).
+
+# Past Training Schools
+
+September 2025, Hamburg, Germany
+August 2025, Nanjing, China
+June 2025, Vienna, Austria
+March 2024 Edinburgh, UK
