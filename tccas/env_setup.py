@@ -75,3 +75,4 @@ if not root_proj.exists():
     root_proj.mkdir(parents=True, exist_ok=True)
 os.chdir(root_proj)
 home_dir.joinpath('tccas_r10043/resources').mkdir(exist_ok = True)
+home_dir.joinpath('tccas_r10043/analysis').mkdir(exist_ok = True)
