@@ -6,6 +6,8 @@ from matplotlib import pyplot as plt
 from pathlib import Path
 from google.colab import drive
 
+user_choice = input("Do you want to prepare TCCAS? (y/n): ").strip().lower()
+
 def config_netcdf():
     # Update package list
     subprocess.run(["apt-get", "update", "-qq"], check=True)
@@ -62,7 +64,12 @@ home_dir = Path('/content/drive/My Drive/tccas')
 # home_dir = [p for p in Path('/home').glob('*') if p.stem != 'conda'][0]
 os.chdir(home_dir)
 config_netcdf()
-prepare_tccas(home_dir)
+if user_choice == "y":
+    print("Running TCCAS model setup...")
+    prepare_tccas(home_dir)
+else:
+    print("Skipping setup.")
+
 root_proj = home_dir.joinpath('tccas_r10043')
 sys.path.append(root_proj.parent.joinpath('notebooks').as_posix())
 sys.path.append(root_proj.parent.joinpath('notebooks_main_dev').as_posix())
