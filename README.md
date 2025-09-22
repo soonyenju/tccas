@@ -18,7 +18,7 @@ TCCAS offers:
 
 See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https://tccas.inversion-lab.com/documentation/TCCAS_manual.pdf).
 
-The journal publication is [here](https://gmd.copernicus.org/articles/18/2137/2025/). 
+The journal publication is [here](https://gmd.copernicus.org/articles/18/2137/2025/) and ESA Living Symposium 2025 presentation is [here](https://lps25.esa.int/programme/programme-session/?id=7175685A-A8C8-48AE-9DAE-72F6E5B22385&presentationId=049A5C5A-F4A0-42C4-BAA9-128EECFE3AA4).
 
 The hands-on sessions are delivered on the [PolarTep](https://tccas.hub.eox.at/) Jupyter Notebook platform.
 
