@@ -54,7 +54,8 @@ warnings.simplefilter('ignore')
 
 drive.mount('/content/drive', force_remount = False)
 # home_dir = Path('/content')
-home_dir = Path.cwd().joinpath('drive/My Drive/tccas')
+home_dir = Path('/content/drive/My Drive/tccas')
+# home_dir = Path.cwd().joinpath('drive/My Drive/tccas')
 # home_dir = [p for p in Path('/home').glob('*') if p.stem != 'conda'][0]
 os.chdir(home_dir)
 config_netcdf()
