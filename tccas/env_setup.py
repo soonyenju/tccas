@@ -15,7 +15,7 @@ home_dir = Path('/content')
 root_proj = home_dir.joinpath('tccas_r10043')
 sys.path.append(root_proj.parent.joinpath('notebooks').as_posix())
 sys.path.append(root_proj.parent.joinpath('notebooks_main_dev').as_posix())
-from functions import colors, setup_canvas, load_csv, load_output_meta, load_DB_outputs, load_observations, copybak, get_PFT_name, aggPFT, set_iteration_number
+from .functions import colors, setup_canvas, load_csv, load_output_meta, load_DB_outputs, load_observations, copybak, get_PFT_name, aggPFT, set_iteration_numbe
 
 os.chdir(root_proj)
 home_dir.joinpath('tccas_r10043/resources').mkdir(exist_ok = True)
