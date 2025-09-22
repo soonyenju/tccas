@@ -46,7 +46,10 @@ def prepare_tccas(home_dir):
     if mk_compile_link.exists():
         mk_compile_link.unlink()  # remove existing link if needed
 
-    subprocess.run(["ln", "-fs", str(mk_compile_target), str(mk_compile_link)], check=True)
+    # # If you work on '/content/':
+    # subprocess.run(["ln", "-fs", str(mk_compile_target), str(mk_compile_link)], check=True)
+    # If you work on Google Drive:
+    subprocess.run(["cp", str(mk_compile_target), str(mk_compile_link)], check=True)
 
     print("✅ TCCAS prepared successfully!")
 
