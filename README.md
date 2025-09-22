@@ -18,6 +18,18 @@ See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https:
 
 The hands-on sessions are delivered on the [PolarTep](https://tccas.hub.eox.at/) Jupyter Notebook platform.
 
+For registered users, here is how to get the notebooks and slides.
+
+```
+%%bash
+# # Copy shared/tccas/notebooks/ to home
+
+cd ~
+rm -r notebooks
+cp -r /shared/tccas/notebooks/ ~
+```
+
+
 You can also run the notebooks on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
 
 # Past Training Schools
