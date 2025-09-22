@@ -30,6 +30,9 @@ def config_netcdf():
     # Install NetCDF Fortran library
     subprocess.run(["apt-get", "install", "-y", "libnetcdff-dev"], check=True)
 
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
 warnings.simplefilter('ignore')
 
 drive.mount('/content/drive', force_remount = False)
@@ -40,6 +43,14 @@ root_proj = home_dir.joinpath('tccas_r10043')
 sys.path.append(root_proj.parent.joinpath('notebooks').as_posix())
 sys.path.append(root_proj.parent.joinpath('notebooks_main_dev').as_posix())
 from .functions import colors, setup_canvas, load_csv, load_output_meta, load_DB_outputs, load_observations, copybak, get_PFT_name, aggPFT, set_iteration_number
+
+try:
+    import netCDF4
+except ModuleNotFoundError as e:
+    print(f"{e}, so `netCDF4` is installing it for you...")
+    install('netCDF4')
+    import netCDF4
+
 
 if not root_proj.exists():
     root_proj.mkdir(parents=True, exist_ok=True)
