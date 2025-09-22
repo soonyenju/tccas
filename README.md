@@ -29,7 +29,6 @@ rm -r notebooks
 cp -r /shared/tccas/notebooks/ ~
 ```
 
-
 You can also run the notebooks on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
 
 # Past Training Schools
