@@ -18,6 +18,8 @@ See TCCAS [website](https://tccas.inversion-lab.com/) and [user tutorial](https:
 
 The hands-on sessions are delivered on the [PolarTep](https://tccas.hub.eox.at/) Jupyter Notebook platform.
 
+You can also run the notebooks on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
+
 # Past Training Schools
 
 - September 2025, Hamburg, Germany
